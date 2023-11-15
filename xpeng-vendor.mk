@@ -6,6 +6,61 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/xpeng
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/xpeng/proprietary/product/etc/init/init.motcamera3.lens.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.motcamera3.lens.rc \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/com.motorola.camera3.content.ai.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.content.ai.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/com.motorola.camera3.lens.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.lens.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/com.motorola.camera3.xpeng.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera3.xpeng.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera3.xml \
+    vendor/motorola/xpeng/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
+    vendor/motorola/xpeng/proprietary/product/lib64/libFNVfbEngineHAL.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libFNVfbEngineHAL.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libNvBeautyEffect.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libNvBeautyEffect.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libSNPE.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSNPE.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libSuperSensorCPU_v05052021.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSuperSensorCPU_v05052021.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libSuperSensorProcessorCWrapper_v2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSuperSensorProcessorCWrapper_v2.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libSuperSensorProcessor_v05052021.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSuperSensorProcessor_v05052021.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libSuperSensor_v05052021.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libSuperSensor_v05052021.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_dualcam_refocus.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libarcsoft_frc.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_frc.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libarcsoft_hdr_scbokeh_image.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_hdr_scbokeh_image.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_high_dynamic_range.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libarcsoft_multiframe_bokeh_image.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_multiframe_bokeh_image.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libarcsoft_scbokeh_Generic.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_scbokeh_Generic.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libarcsoft_supernight.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_supernight.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libarcsoft_superportrait.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libarcsoft_superportrait.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libas-super-slow-motion.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libas-super-slow-motion.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libbarhopper_v3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libbarhopper_v3.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libbg-postproc-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libbg-postproc-jni.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libc++.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libc++.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libc++_shared.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libc++_shared.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libcamerax_extension_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libcamerax_extension_jni.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libcolorseg.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libcolorseg.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libdoc-util.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdoc-util.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libdynamic_depth.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdynamic_depth.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libfn-beauty-vfb-base.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfn-beauty-vfb-base.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libfoundation.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libfoundation.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libgg-dynamic_depth.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgg-dynamic_depth.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libgg-tensorflow-lite.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgg-tensorflow-lite.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libgif.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libgif.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libjpeg.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libjpeg.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/liblenovo_panorama.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/liblenovo_panorama.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libmcf-base.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-base.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libmcf-jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-jni.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libmcf-qc-fd-offline_local.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-qc-fd-offline_local.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libmcf-stand-alone-sm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmcf-stand-alone-sm.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libmeishe-nv-effects-thumbnails.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmeishe-nv-effects-thumbnails.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmmcamera_faceproc2.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libmorpho_cinema_graph.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_cinema_graph.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_panorama_gp3.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmorpho_sensor_fusion.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libmot-cinemagraph-engine.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot-cinemagraph-engine.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libmot-util.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmot-util.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libmpbase.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libmpbase.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libqc-snpe.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libqc-snpe.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libsmart_ppt.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsmart_ppt.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libtensorflowlite.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libtensorflowlite.so \
+    vendor/motorola/xpeng/proprietary/product/lib64/libtensorflowlite_gpu_delegate.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libtensorflowlite_gpu_delegate.so \
     vendor/motorola/xpeng/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/xpeng/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
     vendor/motorola/xpeng/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
@@ -614,6 +669,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xpeng/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 PRODUCT_PACKAGES += \
+    MotCamera3AI \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
+    MotCamera4 \
     com.android.hotwordenrollment.common.util
